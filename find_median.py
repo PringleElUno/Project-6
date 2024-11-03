@@ -5,7 +5,11 @@
 #Define a function named find_median that takes as a parameter a list of numbers
 
 def find_median(numbers):
-    #sort the list of numbers
+    # return to none, if the list is empty
+    if not numbers:
+        return None
+
+    #Sort the list of numbers
     numbers.sort()
 
     #The length of the list
@@ -16,7 +20,7 @@ def find_median(numbers):
         # If even, calculate the average of the middle number two
         mid1 = n // 2
         mid2 = mid1 - 1
-        median = numbers[mid1] + numbers[mid2] / 2
+        median = (numbers[mid1] + numbers[mid2]) / 2
 
     else:
         #if odd, simply take the middle value
