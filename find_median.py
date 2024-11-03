@@ -5,7 +5,6 @@
 #Define a function named find_median that takes as a parameter a list of numbers
 
 def find_median(numbers):
-    #sort the list of numbers
     numbers.sort()
 
     #The length of the list
