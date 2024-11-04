@@ -10,7 +10,7 @@ class Person:
         self._age = age
     # Get the age to return it
     def get_age(self):
-        return self.__age
+        return self._age
 def std_dev (person_list):
     if len(person_list) == 0:
         return None
