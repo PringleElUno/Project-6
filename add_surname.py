@@ -6,4 +6,4 @@
 
 def add_surname(names):
     # List comprehension to filter names starting with "K" and add "Kardashian" without a space
-    return [name + " Kardashian " for name in names if name.startswith ("K")]
+    return [name + " Kardashian" for name in names if name.startswith ("K")]
