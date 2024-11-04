@@ -5,9 +5,9 @@
 # Define a class named Person that has two private data members - the person's name and age
 
 class Person:
-    def __init__(self , name, age):
-        self.__name = name
-        self.__age = age
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
     # Get the age to return it
     def get_age(self):
         return self.__age
