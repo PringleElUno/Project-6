@@ -7,5 +7,3 @@
 def add_surname(names):
     # Use of list comprehension to filer names that start with "K" and "Kardashian"
     return [name + " Kardashian " for name in names if name.startswith ("K")]
-
-print(add_surname(["Kiki", "Krystal", "Pavel", "MaryKay", "Annie", "Koala"]))
