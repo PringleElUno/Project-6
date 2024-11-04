@@ -5,5 +5,5 @@
 # Define a function named add_surname that takes as a parameter a list of first names
 
 def add_surname(names):
-    # Use of list comprehension to filer names that start with "K" and "Kardashian"
-    return [name + "Kardashian" for name in names if name.startswith("K")]
+    # List comprehension to filter names starting with "K" and add "Kardashian" without a space
+    return [name + " Kardashian " for name in names if name.startswith("K")]
